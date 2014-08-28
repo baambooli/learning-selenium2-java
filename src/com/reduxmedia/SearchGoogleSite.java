@@ -49,17 +49,20 @@ public class SearchGoogleSite {
 //		compositeAction.perform();
 //
 //		// click on the current mouse location
+//
 //		Actions builder2 = new Actions(driver);
 //		builder2.moveByOffset(buttons.get(2).getLocation().getX() + 1,
 //				buttons.get(2).getLocation().getY() + 1).click();
 //		builder2.perform();
 //
 //		// dblclick
+//
 //		WebElement dblClick = driver.findElement(By.name("dblClick"));
 //		Actions builder3 = new Actions(driver);
 //		builder3.doubleClick(dblClick).perform();
 //
 //		// click
+//
 //		WebDriver driver2 = new FirefoxDriver();
 //		driver2.get("file://C:/Selectable.html");
 //		WebElement one = driver2.findElement(By.name("one"));
@@ -77,17 +80,19 @@ public class SearchGoogleSite {
 //		builder5.build().perform();
 //
 //		// navigation
+//
 //		driver.navigate().to("http://www.google.com");
 //		driver.navigate().back();
 //		driver.navigate().forward();
 //		driver.navigate().refresh();
 //
-//		// implicit wait for loading
+//		// implicit wait for loading the page
+//
 //		WebDriver driver6 = new FirefoxDriver();
 //		driver6.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//		driver.get("www.google.com");
+//		driver6.get("www.google.com");
 //
-//     // read attributes of some elements
+//      // read attributes of some elements
 //		
 //		WebDriver driver = new FirefoxDriver();
 //		driver.get("http://www.google.com");
